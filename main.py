@@ -1,16 +1,12 @@
 def main():
-    """
-    ##################################################
-    Comlete your code here
-    Use m_perc and f_perc for your results
-    ##################################################
-    """
+    male = int(input("Male count: "))
+    female = int(input("Female count: "))
 
-    """
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    """
+    total = male + female
+    
+    m_perc = (male / total) * 100.0
+    f_perc = (female / total) * 100.0
+
     return m_perc, f_perc
 
 
